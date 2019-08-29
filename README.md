@@ -1,4 +1,4 @@
-### C++17 Starter Pack
+### cpp-init
 
 This repo contains the files I initially place into a brand-new C++ project.
 
