@@ -1,24 +1,22 @@
-﻿---
 BasedOnStyle: WebKit
 AlignAfterOpenBracket: Align
 AlignEscapedNewlines: DontAlign
-AllowAllParametersOfDeclarationOnNextLine: 'false'
+AllowAllParametersOfDeclarationOnNextLine: false
 AllowShortFunctionsOnASingleLine: None
 AlwaysBreakTemplateDeclarations: 'Yes'
-BinPackArguments: 'false'
-BinPackParameters: 'false'
+BinPackArguments: false
+BinPackParameters: false
 BreakBeforeBinaryOperators: None
-ColumnLimit: '120'
-ConstructorInitializerAllOnOneLineOrOnePerLine: 'false'
-Cpp11BracedListStyle: 'true'
-FixNamespaceComments: 'true'
+ColumnLimit: 120
+ConstructorInitializerAllOnOneLineOrOnePerLine: false
+Cpp11BracedListStyle: true
+FixNamespaceComments: true
 IncludeBlocks: Regroup
 IncludeIsMainRegex: (^(ui_)?|(_test)?$)
-KeepEmptyLinesAtTheStartOfBlocks: 'false'
+KeepEmptyLinesAtTheStartOfBlocks: false
 NamespaceIndentation: All
-SpaceAfterTemplateKeyword: 'false'
-SpaceBeforeCpp11BracedList: 'false'
-SpacesInContainerLiterals: 'false'
-TabWidth: '4'
+SpaceAfterTemplateKeyword: false
+SpaceBeforeCpp11BracedList: false
+SpacesInContainerLiterals: false
+TabWidth: 4
 UseTab: ForContinuationAndIndentation
-...
