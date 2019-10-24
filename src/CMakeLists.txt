@@ -1,11 +1,8 @@
-set(MAIN_TARGET ${PROJECT_NAME})
+if (MSVC)
+    add_compile_options(/W4)
+else()
+    add_compile_options(-Wall -Wextra -pedantic)
+endif()
 
-add_executable(${MAIN_TARGET})
-
-target_sources(${MAIN_TARGET} PRIVATE main.cpp)
-
-set_target_properties(${MAIN_TARGET}
-                      PROPERTIES CXX_STANDARD
-                                 17
-                                 CXX_STANDARD_REQUIRED
-                                 true)
+add_executable(${PROJECT_NAME})
+target_sources(${PROJECT_NAME} PRIVATE main.cpp)
