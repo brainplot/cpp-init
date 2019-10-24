@@ -14,7 +14,6 @@ FixNamespaceComments: true
 IncludeBlocks: Regroup
 IncludeIsMainRegex: (^(ui_)?|(_test)?$)
 KeepEmptyLinesAtTheStartOfBlocks: false
-NamespaceIndentation: All
 SpaceAfterTemplateKeyword: false
 SpaceBeforeCpp11BracedList: false
 SpacesInContainerLiterals: false
