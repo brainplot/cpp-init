@@ -1,7 +1,9 @@
 if (MSVC)
-    add_compile_options(/W4)
+	add_compile_options(/utf-8 /W4)
+	add_compile_definitions(UNICODE)
+	add_compile_definitions(_UNICODE)
 else()
-    add_compile_options(-Wall -Wextra -pedantic)
+	add_compile_options(-Wall -Wextra -pedantic)
 endif()
 
 add_executable(${PROJECT_NAME})
