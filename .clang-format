@@ -18,4 +18,4 @@ SpaceAfterTemplateKeyword: false
 SpaceBeforeCpp11BracedList: false
 SpacesInContainerLiterals: false
 TabWidth: 4
-UseTab: ForContinuationAndIndentation
+UseTab: ForIndentation
