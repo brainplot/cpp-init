@@ -7,7 +7,7 @@ AlwaysBreakTemplateDeclarations: 'Yes'
 BinPackArguments: false
 BinPackParameters: false
 BreakBeforeBinaryOperators: None
-ColumnLimit: 120
+ColumnLimit: 100
 ConstructorInitializerAllOnOneLineOrOnePerLine: false
 Cpp11BracedListStyle: true
 FixNamespaceComments: true
